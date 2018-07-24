@@ -1,0 +1,11 @@
+framework module ThanxSDK {
+  umbrella header "ThanxSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ThanxSDK.Swift {
+    header "ThanxSDK-Swift.h"
+    requires objc
+}
