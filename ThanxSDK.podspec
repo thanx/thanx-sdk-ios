@@ -15,4 +15,7 @@ DESC
   spec.swift_version = '4.1'
   spec.ios.deployment_target = '10.3'
   spec.vendored_frameworks = 'ThanxSDK.framework'
+  spec.resource_bundles = {
+    'Thanx' => ['**/*.{nib}']
+  }
 end
