@@ -9,7 +9,3 @@ Pending
 ## Demo
 
 Pending
-
-## Copyright
-
-Copyright 2018 Thanx, Inc.
