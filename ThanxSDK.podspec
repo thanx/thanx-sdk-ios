@@ -9,7 +9,7 @@ Thanx Consumer Mobile SDK
 DESC
   spec.homepage = 'https://github.com/thanx/thanx-sdk-ios'
   spec.author = 'Thanx, Inc.'
-  spec.license = 'Propietary'
+  spec.license = { type: 'Propietary', file: 'LICENSE.md' }
   spec.platform = :ios
   spec.source = { git: 'https://github.com/thanx/thanx-sdk-ios.git', tag: spec.version.to_s }
   spec.swift_version = '4.1'
