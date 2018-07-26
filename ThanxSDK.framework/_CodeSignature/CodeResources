@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sLpAabz2RjjmsfrkXSs9r1Rfeeo=
+		Z86z7fk/7wOw4TtN7cWpatRrwso=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		Ys9ZIjxnWfA7FJhmSCfZXIb3L3E=
+		0u7GbdfTmsetZ4+nGWllIorthLU=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1bDOYx+qvmu4QybDk7jFvLjnazE=
+		en2eQAlnDF2TRruO+wquU1865KM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>WebViewController.nib/objects-11.0+.nib</key>
 		<data>
-		1sjVNeOYb4G4kw1C10pttdz8Zeo=
+		w49BZHb45reAu/JDAb6NulCNDEk=
 		</data>
 		<key>WebViewController.nib/runtime.nib</key>
 		<data>
-		VIAa8zEwvg0Kd7rUyNrQiZ9cTus=
+		cVfKkiwNYYp9yqu8C7+O8hbggH8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ys9ZIjxnWfA7FJhmSCfZXIb3L3E=
+			0u7GbdfTmsetZ4+nGWllIorthLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zDnWorqzV5wghYlbQz0YS//5AqxQ5QdF0qy4YMwHdkY=
+			h5RQfg+IOlftBu+YUycIMNUwA7GQnh0cCYXacVClJgc=
 			</data>
 		</dict>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1bDOYx+qvmu4QybDk7jFvLjnazE=
+			en2eQAlnDF2TRruO+wquU1865KM=
 			</data>
 			<key>hash2</key>
 			<data>
-			z0uofW/cepkQMLf8JFZT4hxRwg+VdsPy70reSigPrJw=
+			K/IiwJvF1OWPoClHSbYcqnxN6JZ7BKdaNkwrPM9E2jI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -128,22 +128,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1sjVNeOYb4G4kw1C10pttdz8Zeo=
+			w49BZHb45reAu/JDAb6NulCNDEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jn37K902i3dF6uzLZvrF+sUZfy9cg/VVSCOI2R4mQCs=
+			elfQyiSfLnkgDPtOnsVA7IR/u8LrIKKP5LqoaT2vjiI=
 			</data>
 		</dict>
 		<key>WebViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VIAa8zEwvg0Kd7rUyNrQiZ9cTus=
+			cVfKkiwNYYp9yqu8C7+O8hbggH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SLXjqwH2tohD0fQhaAxFZtiGIVlRCT9JEsFcEeE0zNU=
+			PUzg8ujK5TpAWEx+YuPods4BJKJYQC4GEiMHclAJwCQ=
 			</data>
 		</dict>
 	</dict>
