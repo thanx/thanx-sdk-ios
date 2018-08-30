@@ -199,9 +199,11 @@ SWIFT_CLASS("_TtCV8ThanxSDK5Thanx17WebViewController")
 
 @class WKWebView;
 @class WKNavigationResponse;
+@class WKNavigationAction;
 
 @interface WebViewController (SWIFT_EXTENSION(ThanxSDK)) <WKNavigationDelegate>
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationResponse:(WKNavigationResponse * _Nonnull)navigationResponse decisionHandler:(void (^ _Nonnull)(WKNavigationResponsePolicy))decisionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 #if __has_attribute(external_source_symbol)

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'ThanxSDK'
-  spec.version = '0.0.4'
+  spec.version = '0.0.5'
   spec.summary = 'Thanx Consumer Mobile SDK'
   spec.description = <<-DESC
 Thanx Consumer Mobile SDK
