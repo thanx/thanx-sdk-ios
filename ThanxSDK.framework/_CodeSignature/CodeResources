@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ThanxSDK-Swift.h</key>
 		<data>
-		PNzUqTXDBcGwnLTtj/rAhv6hqL4=
+		k/VFGgGMMF2QtFoLmhak3+R+9/M=
 		</data>
 		<key>Headers/ThanxSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U6TiiZTDV2j1JHavYT2DB71gaDQ=
+		qccSn6NTEM8u9eUHpQqJz0psxP8=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		+yMTXeOkM4sPsHaOFmcEYPvMJ84=
+		WsdwUrsfj9eG6oQYhbhxZ4WaP0M=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		R+vkDvYS6oT5ar3fXKc5jXvKzmU=
+		PdweMngX4CwH0pC3qOmbkEkxCSI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>WebViewController.nib/objects-11.0+.nib</key>
 		<data>
-		Gsl3TA4iLubo4bbJbYcejIb0DX8=
+		lRl7q4c5pyLRI5Y2TayrBNZggHU=
 		</data>
 		<key>WebViewController.nib/runtime.nib</key>
 		<data>
-		2+aFIE87cTFQV3z0TY8R5pTeQUg=
+		Dq9Ny1swAX7rOHxVkW3FGYasRNE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNzUqTXDBcGwnLTtj/rAhv6hqL4=
+			k/VFGgGMMF2QtFoLmhak3+R+9/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			mgOQpd4RG2Hr8U2iB3SFO3TPwCRPkDEwlzIclDhs9+Y=
+			1ewNcvZlygKloT7ZZKbUt1ARDxuWW/KlSy+jYyliXfQ=
 			</data>
 		</dict>
 		<key>Headers/ThanxSDK.h</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+yMTXeOkM4sPsHaOFmcEYPvMJ84=
+			WsdwUrsfj9eG6oQYhbhxZ4WaP0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			4s6VdSD0TACMKFSi+AjOVc16ep9BtjLVxMper1dtCo0=
+			OOZRZR8IUxkDKhmDPEK8zT2HmJ7q3/fA/HzVZSWfvbs=
 			</data>
 		</dict>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R+vkDvYS6oT5ar3fXKc5jXvKzmU=
+			PdweMngX4CwH0pC3qOmbkEkxCSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kIIWz0WeKzroqucCvAlFgTG7Eo7kTSId5Mwta9EZEQ4=
+			b55gEUoLbhNCUitHOkJyRM2PUDRAiE1mZ/djwv+tQ6I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -128,22 +128,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gsl3TA4iLubo4bbJbYcejIb0DX8=
+			lRl7q4c5pyLRI5Y2TayrBNZggHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			nG/+T2yxM9LyveovFCAGhkqRisEXdeYaHSL/VBxi7cI=
+			ebzbeR/PqMQ9sngYeIC5ULyLQP/cRysEUgMs7bBsOKk=
 			</data>
 		</dict>
 		<key>WebViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2+aFIE87cTFQV3z0TY8R5pTeQUg=
+			Dq9Ny1swAX7rOHxVkW3FGYasRNE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3HzwKbvpkpDg7UdYzsrVFa/XH/D0M0lJv1LgQFJpa2E=
+			p2rLftMkGNyCSeDFqQsW55Y6LiGH+jl+RB1llBtAf0E=
 			</data>
 		</dict>
 	</dict>
