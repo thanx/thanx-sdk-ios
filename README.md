@@ -15,24 +15,29 @@ manager Cocoapods.
 Thanx will provide the SDK `Client ID` and a `Client Secret` via a secure
 channel.
 
-Authentication of the SDK should be done with that Client ID and Client Secret.
-The developer, should initialize the SDK when the app launches with those
-values.
+Authentication of the SDK should be done with the provided SDK `Client ID` and 
+`Client Secret`. The developer, should initialize the SDK when the app launches
+with those values.
 
 ### User
 
-Once the user logs into the app, the user's details (email, name, developer
-user identifier, Thanx user identifier, etc) should be set in the SDK.
+This SDK supports user authentication via access token or user login.
 
-If no Thanx user identifier is provided during authentication, the SDK then
-tries to match to a Thanx user via email only and fires a callback with success
-or failure:
-* If match success, the SDK will return the Thanx user identifier and the
-  developer should save that in order to authenticate the user in subsequent
-  sessions.
-* If match failure, the SDK will present the user with the Thanx sign up flow in
-  order to register/login into the Thanx platform. After the user completes the
-  Thanx registration/authentication, the SDK will fire the callbacks again.
+**Access Token**:
+
+If an access token is provided on SDK initialization, the user and SDK will be
+automatically authenticated.
+
+**User Login**:
+
+If no access token is provided on SDK initialization, a login form will be
+displayed to the user in the webview where they will be prompted to login or
+create an account.
+
+**Post Authentication**
+
+After authentication is completed through either mechanism, the user's details
+(`email`, `firstName`, `lastName`) will be accessible via the SDK.
 
 ## Push Notifications
 
@@ -119,7 +124,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+  func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
+  ) -> Bool {
+    // Automatic User Authentication
+    Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", accessToken: "USER_ACCESS_TOKEN", debug: true)
+    // Manual User Authentication
     Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true)
     return true
   }
@@ -167,7 +178,10 @@ import ThanxSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+  func application(
+    _ application: UIApplication,
+    didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
+  ) {
     Thanx.registerForNotifications(token: deviceToken)
   }
 }
@@ -190,7 +204,10 @@ import ThanxSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+  func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
+  ) -> Bool {
     // Make sure that the SDK is initialized before launching the WebViewController
     Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true) { error in
       guard error == nil else { return }
@@ -220,6 +237,8 @@ debug flag as true:
 ```swift
 // AppDelegate.swift
 Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true)
+// or
+Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true, accessToken: "USER_ACCESS_TOKEN")
 ```
 
 Running the SDK in debug will provide you with extra console output and most
@@ -277,9 +296,16 @@ extension Thanx {
   - clientId: Your SDK client ID
   - clientSecret: Your SDK client secret
   - debug: Whether or not to run the SDK in debug mode
+  - accessToken: User Access Token
   - completion: Callback fired when the initialization has been completed
   */
-  public static func initialize(clientId: String, clientSecret: String, debug: Bool = default, completion: ((Error?) -> ())? = default)
+  public static func initialize(
+    clientId: String,
+    clientSecret: String,
+    debug: Bool = default,
+    accessToken: String? = default,
+    completion: ((Error?) -> ())? = default
+  )
 }
 
 extension Thanx {
