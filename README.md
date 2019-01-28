@@ -16,19 +16,19 @@ Thanx will provide the SDK `Client ID` and a `Client Secret` via a secure
 channel.
 
 Authentication of the SDK should be done with the provided SDK `Client ID` and 
-`Client Secret`. The developer, should initialize the SDK when the app launches
+`Client Secret`. The developer should initialize the SDK when the app launches
 with those values.
 
 ### User
 
 This SDK supports user authentication via access token or user login.
 
-**Access Token**:
+**Access Token Authentication**:
 
 If an access token is provided on SDK initialization, the user and SDK will be
 automatically authenticated.
 
-**User Login**:
+**Manual Authentication**:
 
 If no access token is provided on SDK initialization, a login form will be
 displayed to the user in the webview where they will be prompted to login or
