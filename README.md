@@ -42,7 +42,7 @@ After authentication is completed through either mechanism, the user's details
 ## Push Notifications
 
 Thanx will need the push services certificate in order to send Loyalty related
-push notifications to the user. The Thanx team will work with Westfield to
+push notifications to the user. The Thanx team will work with the Merchant to
 provide a mechanism for securely exchanging this information.
 
 In the app, after the developer asks for push notifications permissions and the
