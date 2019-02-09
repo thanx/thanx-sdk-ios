@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ThanxSDK-Swift.h</key>
 		<data>
-		7EEiART0M5UeFvETkz2iIqZIHx0=
+		aT77JpY1WZvW/BRvUWPhU+M3SF8=
 		</data>
 		<key>Headers/ThanxSDK.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Jl3MjMTgVatX+fEr+VrIFtBdX5I=
+		qtk7AKI9GQLlyrphrn0ZAvB79c4=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		XrgvIZ+3T7X/pdPFtZXWQK761kE=
+		FxNaXq3PKkUB8guyXl/wA8STIKE=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		3MaD4GyQo1ZUOAZQAew9pVlv1Q0=
+		LLrXqLGsXns4mwdCA0T4L88XXw4=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		zSsXh7VfBiKVAMFTbz5qpf2SlEw=
+		Rl/B9nz5Jvt6attmGCSitnZzty8=
 		</data>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		TfrdgMhu1vRAXKBvJC3c9EgAz8Q=
+		LIkp9PnrgAZfEMwt2vxV2PyztUs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>WebViewController.nib/objects-11.0+.nib</key>
 		<data>
-		zzruKG/e+tWMQfHfyXVtmqWPGXI=
+		2iF3Cxn10AIyYbeRDWDt+PLGgbU=
 		</data>
 		<key>WebViewController.nib/runtime.nib</key>
 		<data>
-		J8FFZQ8TCc4EEXX1C+Qop7gq4E4=
+		zSnMtYHI88u5d/7mC/qLlEWM9c0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7EEiART0M5UeFvETkz2iIqZIHx0=
+			aT77JpY1WZvW/BRvUWPhU+M3SF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OVkrs6uy8pSJ+hKMTXvtlTmC4WJKgKI//Jpp6YNdvBM=
+			cMl/2sKhO3s/zFg7LCpgPnqS8MsI6lLuceLWTrBq/fU=
 			</data>
 		</dict>
 		<key>Headers/ThanxSDK.h</key>
@@ -73,44 +73,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrgvIZ+3T7X/pdPFtZXWQK761kE=
+			FxNaXq3PKkUB8guyXl/wA8STIKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			EEcP6empumRrpZOj8nSY3G5pZN8/mN1qec4FIBJohQw=
+			kspUjJa2OiQ/5Oi31HpC0uXUunlC+mcDZ/Q7/Ry3LUw=
 			</data>
 		</dict>
 		<key>Modules/ThanxSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3MaD4GyQo1ZUOAZQAew9pVlv1Q0=
+			LLrXqLGsXns4mwdCA0T4L88XXw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			GuYymuGhsjL6TjurndRztPzw+vQt3Tg5+2repzPb+DI=
+			QasxqXVcvi2xErq3sl8zYCCSG1PcnkMv8qD4sbdJZW4=
 			</data>
 		</dict>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zSsXh7VfBiKVAMFTbz5qpf2SlEw=
+			Rl/B9nz5Jvt6attmGCSitnZzty8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yThN5NQplq14YxGRoGQAiJjTck2yBDJwn4enBPgkfgw=
+			aBpGZ/7Hr6JL2JZsTTemsGESu7/nRKrsKKPVkHBSbjM=
 			</data>
 		</dict>
 		<key>Modules/ThanxSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TfrdgMhu1vRAXKBvJC3c9EgAz8Q=
+			LIkp9PnrgAZfEMwt2vxV2PyztUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aYnIU1WfeFdUXYTTFh7IeZgP9UriggpGZvzHfaYqOYk=
+			ABlugMBsY0ie1OLAixrf2UORY9swORZErt+W4B68LFc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -128,28 +128,28 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zzruKG/e+tWMQfHfyXVtmqWPGXI=
+			2iF3Cxn10AIyYbeRDWDt+PLGgbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6mYk76CxXkI/YtfPU5NwKtLhzfEEp4TLwkebD+J6BZM=
+			hudqtXkd/+12cKZaENo8RilYi75Ex8WXJh6+UlXcQiI=
 			</data>
 		</dict>
 		<key>WebViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J8FFZQ8TCc4EEXX1C+Qop7gq4E4=
+			zSnMtYHI88u5d/7mC/qLlEWM9c0=
 			</data>
 			<key>hash2</key>
 			<data>
-			UZI6IGkkj9LpSkcwKgjUocg44W8IdLhYzzRDaGCIaHo=
+			QPTr6F0R6C9Iurt9UThCK8KhZ9IGoXikMjGWyDx0aSo=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -180,24 +180,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -233,13 +221,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

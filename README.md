@@ -129,7 +129,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
   ) -> Bool {
     // Automatic User Authentication
-    Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", accessToken: "USER_ACCESS_TOKEN", debug: true)
+    Thanx.initialize(accessToken: "USER_ACCESS_TOKEN", debug: true)
     // Manual User Authentication
     Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true)
     return true
@@ -238,7 +238,7 @@ debug flag as true:
 // AppDelegate.swift
 Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true)
 // or
-Thanx.initialize(clientId: "YOUR_CLIENT_ID", clientSecret: "YOUR_CLIENT_SECRET", debug: true, accessToken: "USER_ACCESS_TOKEN")
+Thanx.initialize(accessToken: "USER_ACCESS_TOKEN", debug: true)
 ```
 
 Running the SDK in debug will provide you with extra console output and most
