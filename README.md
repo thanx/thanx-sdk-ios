@@ -161,6 +161,61 @@ let thanxWebViewController = Thanx.WebViewController(showToolbar: false)
 navigationController?.pushViewcontroller(thanxWebViewController, animated: true)
 ```
 
+## Loading Callbacks
+
+Callbacks are provided as a protocol in order to know when the Thanx SDK mobile
+experience is loading.
+
+```swift
+@objc public protocol WebViewControllerDelegate: class {
+  // Callback triggered when the initial load starts
+  @objc optional func didStartInitialLoading(url: URL?)
+
+  // Callback triggered when any load starts (including the initial load)
+  // Note: It might be triggered multiple times for the same page
+  @objc optional func didStartLoading(url: URL?)
+
+  // Callback triggered when the initial load finishes
+  @objc optional func didFinishInitialLoading(url: URL?)
+
+  // Callback triggered when any load finishes (including the initial load)
+  // Note: It might be triggered multiple times for the same page
+  @objc optional func didFinishLoading(url: URL?)
+}
+```
+
+You need to initialize the WebViewController with the `delegate` parameter:
+```swift
+thanxWebViewController = Thanx.WebViewController(showToolbar: true, delegate: self)
+present(thanxWebViewController, animated: true)
+```
+
+And then implement the protocol:
+```swift
+extension ViewController: WebViewControllerDelegate {
+  public func didStartInitialLoading(url: URL?) {
+    // Callback triggered when the initial load starts
+    // E.g. show loading spinner
+  }
+
+  public func didFinishInitialLoading(url: URL?) {
+    // Callback triggered when the initial load finishes
+    // E.g. hide loading spinner
+  }
+
+  public func didStartLoading(url: URL?) {
+    // Callback triggered when any load starts (including the initial load)
+    // Note: It might be triggered multiple times for the same page
+  }
+
+  public func didFinishLoading(url: URL?) {
+    // Callback triggered when any load finishes (including the initial load)
+    // Note: It might be triggered multiple times for the same page
+  }
+}
+```
+
+
 ## Push Notifications
 
 ### Device Token Registration
