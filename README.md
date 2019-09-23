@@ -284,6 +284,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   </strong>
 </aside>
 
+## App Store Rating Prompt
+The default app rating prompt will display automatically after using a reward (or activating it if is a statement credit reward) based on Apple's displaying rules noted in [their documentation](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/requesting_app_store_reviews).
+
+In order to disable automatically displaying the prompt, add the following line after SDK initialization:
+
+```
+# SDK initialization
+Thanx.initialize(accessToken: "token")
+# Disable App Store rate prompt after reward redemption
+Thanx.displayRatePrompt(false)
+```
+
 ## Debug Mode
 
 In order to run the SDK in debug mode, you'll need to initialize it with the
