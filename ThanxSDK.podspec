@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'ThanxSDK'
-  spec.version = '0.0.14'
+  spec.version = '0.0.15'
   spec.summary = 'Thanx Consumer Mobile SDK'
   spec.description = <<-DESC
 Thanx Consumer Mobile SDK
@@ -18,4 +18,6 @@ DESC
   spec.resource_bundles = {
     'Thanx' => ['**/*.{nib}']
   }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 end

@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThanxSDK
+import Foundation
+import StoreKit
+import Swift
+@_exported import ThanxSDK
+import UIKit
+import WebKit
+import _Concurrency
+@objc public protocol WebViewControllerDelegate {
+  @objc optional func didStartInitialLoading(url: Foundation.URL?)
+  @objc optional func didStartLoading(url: Foundation.URL?)
+  @objc optional func didFinishInitialLoading(url: Foundation.URL?)
+  @objc optional func didFinishLoading(url: Foundation.URL?)
+}
+extension ThanxSDK.Thanx {
+  @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class WebViewController : UIKit.UIViewController {
+    @_Concurrency.MainActor(unsafe) convenience public init(showToolbar: Swift.Bool, notificationPayload: [Swift.AnyHashable : Any]? = nil, delegate: ThanxSDK.WebViewControllerDelegate? = nil)
+    @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+    @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+    @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc deinit
+  }
+}
+extension ThanxSDK.Thanx.WebViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+}
+public struct Thanx {
+}
+extension ThanxSDK.Thanx {
+  public typealias LoginCallback = (ThanxSDK.Thanx.User?, Swift.Error?) -> Swift.Void
+  public static var user: ThanxSDK.Thanx.User? {
+    get
+    set
+  }
+  public static var authenticated: Swift.Bool {
+    get
+    set
+  }
+  public static func logout(completion: (() -> Swift.Void)? = nil)
+}
+extension ThanxSDK.Thanx {
+  public static var initialized: Swift.Bool {
+    get
+  }
+  public static func initialize(accessToken: Swift.String, debug: Swift.Bool = false, logging: Swift.Bool = false, completion: ((Swift.Error?) -> Swift.Void)? = nil)
+  public static func initialize(clientId: Swift.String, clientSecret: Swift.String, debug: Swift.Bool = false, logging: Swift.Bool = false, completion: ((Swift.Error?) -> Swift.Void)? = nil)
+  public static func displayRatePrompt(_ value: Swift.Bool)
+}
+extension ThanxSDK.Thanx {
+  @_hasMissingDesignatedInitializers public class User {
+    final public let firstName: Swift.String!
+    final public let lastName: Swift.String!
+    final public let email: Swift.String!
+    @objc deinit
+  }
+}
+extension ThanxSDK.Thanx {
+  public static func registerForNotifications(token: Foundation.Data)
+}
